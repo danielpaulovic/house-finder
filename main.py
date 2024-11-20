@@ -89,13 +89,10 @@ if __name__ == "__main__":
 
     # Define URLs
     house_urls = [
-        # Rajhrad area
-        "https://www.sreality.cz/api/v1/estates/search?category_type_cb=1&category_main_cb=2&locality_country_id=112&locality_region_id=14&locality_search_name=Rajhrad&locality_entity_type=municipality&locality_entity_id=5820&locality_radius=10&building_condition=1,6,4,5&price_from=7000000&price_to=15000000&usable_area_from=90&per_page=60",
-        # Slapanice area
-        "https://www.sreality.cz/api/v1/estates/search?category_type_cb=1&category_main_cb=2&locality_country_id=112&locality_region_id=14&locality_search_name=%C5%A0lapanice&locality_entity_type=municipality&locality_entity_id=5838&locality_radius=10&building_condition=5,6,4,1&price_from=7000000&price_to=15000000&usable_area_from=90&per_page=60"
+        "https://www.sreality.cz/api/v1/estates/search?category_main_cb=1&category_sub_cb=3,5,4&locality_country_id=112&locality_search_name=m%C4%9Bstsk%C3%A1+%C4%8D%C3%A1st+%C5%BDidenice,+Brno&locality_entity_type=ward&locality_entity_id=14986&category_type_cb=2&top_timestamp_to=1732114322"
     ]
     flat_urls = [
-        "https://www.sreality.cz/api/v1/estates/search?category_type_cb=1&category_main_cb=1&category_sub_cb=7,6,9,8,11,10,12,16&locality_country_id=112&locality_region_id=14&locality_district_id=72&building_condition=5,6,4,1&price_from=7000000&price_to=15000000&ownership=1&parking_lots=true&garage=true&usable_area_from=90&per_page=60",
+        "https://www.sreality.cz/api/v1/estates/search?category_type_cb=1&category_main_cb=1&category_sub_cb=3,5,4&locality_country_id=112&locality_search_name=m%C4%9Bstsk%C3%A1+%C4%8D%C3%A1st+%C5%BDidenice,+Brno&locality_entity_type=ward&locality_entity_id=14986&lang=cs&sort=-date&include_broker_tip=true&include_region_tip=true&include_project_tip=true",
     ]
 
     # Scrape flat URLs first
