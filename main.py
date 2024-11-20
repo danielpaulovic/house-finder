@@ -89,7 +89,8 @@ if __name__ == "__main__":
 
     # Define URLs
     house_urls = [
-        "https://www.sreality.cz/api/v1/estates/search?category_main_cb=1&category_sub_cb=3,5,4&locality_country_id=112&locality_search_name=m%C4%9Bstsk%C3%A1+%C4%8D%C3%A1st+%C5%BDidenice,+Brno&locality_entity_type=ward&locality_entity_id=14986&category_type_cb=2&top_timestamp_to=1732114322"
+        "https://www.sreality.cz/api/v1/estates/search?category_main_cb=1&category_sub_cb=3,5,4&locality_country_id=112&locality_search_name=m%C4%9Bstsk%C3%A1+%C4%8D%C3%A1st+%C5%BDidenice,+Brno&locality_entity_type=ward&locality_entity_id=14986&category_type_cb=2",
+        "https://www.sreality.cz/api/v1/estates/search?category_main_cb=1&category_sub_cb=3,5,4&locality_country_id=112&locality_entity_type=ward&category_type_cb=2&locality_search_name=m%C4%9Bstsk%C3%A1+%C4%8D%C3%A1st+Kr%C3%A1lovo+Pole,+Brno&locality_entity_id=14660"
     ]
     flat_urls = [
         "https://www.sreality.cz/api/v1/estates/search?category_type_cb=1&category_main_cb=1&category_sub_cb=3,5,4&locality_country_id=112&locality_search_name=m%C4%9Bstsk%C3%A1+%C4%8D%C3%A1st+%C5%BDidenice,+Brno&locality_entity_type=ward&locality_entity_id=14986&lang=cs&sort=-date&include_broker_tip=true&include_region_tip=true&include_project_tip=true",
